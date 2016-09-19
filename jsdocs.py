@@ -884,7 +884,7 @@ class JsdocsCPP(JsdocsParser):
             'typeInfo': False,
             'curlyTypes': False,
             'typeTag': 'param',
-            'commentCloser': ' */',
+            'commentCloser': '*/',
             'fnIdentifier': identifier,
             'varIdentifier': '(' + identifier + ')\\s*(?:\\[(?:' + identifier + r')?\]|\((?:(?:\s*,\s*)?[a-z]+)+\s*\))*',
             'fnOpener': identifier + '\\s+' + identifier + '\\s*\\(',
